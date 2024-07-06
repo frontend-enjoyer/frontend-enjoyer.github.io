@@ -17,6 +17,11 @@ export default [
 		}
 	},
 	{
+		rules: {
+			"constructor-super": "error"
+		}
+	},
+	{
 		files: ['**/*.svelte'],
 		languageOptions: {
 			parserOptions: {
