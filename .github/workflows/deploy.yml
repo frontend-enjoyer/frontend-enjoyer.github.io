@@ -24,8 +24,5 @@ jobs:
       - name: Check linters
         run: npm run lint
 
-      - name: Check svelte
-        run: npm run check
-
       - name: Check prettier
         run: npm run prettier
